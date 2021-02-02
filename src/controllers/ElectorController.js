@@ -6,8 +6,8 @@ const { generarToken } = require('../utils/Validador')
 
 const clienteCorreo = nodemailer.createTransport({
     host: "smtp.gmail.com",
-    port: 587,
-    secure: false, // secure va a ser true cuando el puerto sea el 465
+    port: 465,
+    secure: true, // secure va a ser true cuando el puerto sea el 465
     auth: {
         user: 'proyecto.tienda.online.UTP@gmail.com',
         pass: 'UTP1635170'
