@@ -9,8 +9,8 @@ const clienteCorreo = nodemailer.createTransport({
     port: 587,
     secure: false, // secure va a ser true cuando el puerto sea el 465
     auth: {
-        user: 'testappseduardo@gmail.com',
-        pass: 'Pruebas2020'
+        user: 'proyecto.tienda.online.UTP@gmail.com',
+        pass: 'UTP1635170'
     },
     tls: {
         rejectUnauthorized: false
